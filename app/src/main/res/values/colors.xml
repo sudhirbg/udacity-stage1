@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Text Color for Movie Title (Movie Detail Activity) -->
+    <color name="colorTitle">#009485</color>
+
+    <!-- Text Color for Release Date (Movie Detail Activity) -->
+    <color name="colorDate">#707070</color>
+
+    <!-- Text Color for Votes Average (Movie Detail Activity) -->
+    <color name="colorVotes">#000000</color>
+
+    <!-- Text Color for Plot Synopsis (Movie Detail Activity) -->
+    <color name="colorSynopsis">#757575</color>
+</resources>

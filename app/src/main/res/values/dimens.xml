@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+
+    <!-- Text Size for Title (Movie Detail Activity) -->
+    <dimen name="movieTitle">40dp</dimen>
+
+    <!-- Text Size for Release Date (Movie Detail Activity) -->
+    <dimen name="movieReleaseDate">40dp</dimen>
+
+    <!-- Text Size for Votes Average (Movie Detail Activity) -->
+    <dimen name="movieVotesAvg">22dp</dimen>
+
+    <!-- Text Size for Plot Synopsis (Movie Detail Activity) -->
+    <dimen name="movieSynopsis">22dp</dimen>
+</resources>

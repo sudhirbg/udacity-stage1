@@ -1,0 +1,13 @@
+<resources>
+    <!-- Title for Main & Child Activities -->
+    <string name="app_name">Popular Movies</string>
+    <string name="movie_detail_name">Movie Detail</string>
+
+    <!-- Text for Settings Menu Options -->
+    <string name="sort_by_popularity">Most Popular</string>
+    <string name="sort_by_rating">Highest Rated</string>
+
+    <!-- error messages -->
+    <string name="network_error">Internet Connection Unavailable.</string>
+    <string name="error_message">Something went wrong. Please try again.</string>
+</resources>
