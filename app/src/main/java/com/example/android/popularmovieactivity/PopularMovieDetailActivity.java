@@ -35,12 +35,8 @@ public class PopularMovieDetailActivity extends AppCompatActivity {
                 .placeholder(R.mipmap.placeholder)
                 .into(mImage);
 
-        /* split the date and extract the year */
-        String movieReleaseDate = movie.getDate();
-        String[] parts = movieReleaseDate.split(DELIMITER);
-
         mReleaseDate = (TextView) findViewById(R.id.tv_release_date);
-        mReleaseDate.setText(parts[0]);
+        mReleaseDate.setText(movie.getYear(movie.getDate()));
 
         mVoteAvg = (TextView) findViewById(R.id.tv_vote_avg);
         mVoteAvg.setText(movie.getVotes().toString() + VOTE_MAX);

@@ -10,6 +10,7 @@ public class PopularMovie implements Parcelable{
     public static final String TMDB_IMAGE_PATH = "http://image.tmdb.org/t/p/w500";
     private int id;
     private String title;
+    private static final String DELIMITER = "-";
 
     @SerializedName("release_date")
     private String date;
@@ -81,30 +82,9 @@ public class PopularMovie implements Parcelable{
         return this.overview;
     }
 
-
-    /* setters */
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public void setDate(String release_date) {
-        this.date = release_date;
-    }
-
-    public void setPoster(String poster) {
-        this.poster = poster;
-    }
-
-    public void setVotes(Double votes) {
-        this.votes = votes;
-    }
-
-    public void setOverview(String overview) {
-        this.overview = overview;
+    public String getYear(String date) {
+        String[] parts = date.split(DELIMITER);
+        return parts[0];
     }
 
     /* POJO class to receive object and extract array*/
